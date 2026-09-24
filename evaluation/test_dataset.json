@@ -1,0 +1,104 @@
+[
+  {
+    "type": "exact",
+    "query": "What subscription pricing plans do you offer?",
+    "expectedFaqId": "faq_1",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "How much does the service cost per month?",
+    "expectedFaqId": "faq_1",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "Can you tell me about your pricing tiers and plans?",
+    "expectedFaqId": "faq_1",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "Can I get my money back if I want to cancel?",
+    "expectedFaqId": "faq_2",
+    "shouldMatch": true
+  },
+  {
+    "type": "typo",
+    "query": "what is ur refnd and cancelation policy?",
+    "expectedFaqId": "faq_2",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "How many requests per minute can I make to the API?",
+    "expectedFaqId": "faq_3",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "I forgot my login password, how do I recover it?",
+    "expectedFaqId": "faq_4",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "Do you support 2-factor authentication or authenticator apps?",
+    "expectedFaqId": "faq_5",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "How can I add the bot widget to my website HTML?",
+    "expectedFaqId": "faq_6",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "Can I pay using credit card or UPI?",
+    "expectedFaqId": "faq_7",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "Is my data stored securely and encrypted?",
+    "expectedFaqId": "faq_8",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "What happens if I cross my conversation limit?",
+    "expectedFaqId": "faq_9",
+    "shouldMatch": true
+  },
+  {
+    "type": "paraphrase",
+    "query": "What is the customer support email address?",
+    "expectedFaqId": "faq_10",
+    "shouldMatch": true
+  },
+  {
+    "type": "out_of_domain",
+    "query": "What is the capital city of France?",
+    "expectedFaqId": null,
+    "shouldMatch": false
+  },
+  {
+    "type": "out_of_domain",
+    "query": "Can you write a poem about quantum physics?",
+    "expectedFaqId": null,
+    "shouldMatch": false
+  },
+  {
+    "type": "out_of_domain",
+    "query": "Where can I buy fresh pizza in New York?",
+    "expectedFaqId": null,
+    "shouldMatch": false
+  },
+  {
+    "type": "out_of_domain",
+    "query": "Tell me a joke about dogs",
+    "expectedFaqId": null,
+    "shouldMatch": false
+  }
+]
